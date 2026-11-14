@@ -1,0 +1,403 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Peptide Reference</title>
+<style>
+:root,:root[data-theme="light"],:root[data-theme="dark"]{color-scheme:dark;--bg:#000;--card:#111;--ink:#fff;--muted:#bdbdbd;--line:#333;--accent:#ff2a1f;--accent-soft:#2b0705;--warn:#fff;--warn-soft:#1c1c1c;--blue:#000;--blue-soft:#fff;--gray-soft:#1a1a1a;--red:#e10600;--red-soft:#3a0907;font-family:system-ui,-apple-system,Segoe UI,Roboto,sans-serif}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);line-height:1.5;font-size:15px}
+a{color:var(--accent)}
+</style>
+</head>
+<body>
+<header>
+<div style="max-width:1100px;margin:0 auto;padding:28px 16px 8px">
+<p style="margin:0;font-size:12px;letter-spacing:.08em;text-transform:uppercase;color:var(--accent);font-weight:700">Private reference · not for public distribution</p>
+<h1 style="margin:6px 0 4px;font-size:32px;line-height:1.15">Peptide Reference</h1>
+<p style="margin:0 0 14px;color:var(--muted)">Dose ranges, product notes, reconstitution and a dose calculator in one place.</p>
+<nav style="display:flex;flex-wrap:wrap;gap:8px">
+<a href="#dosing" style="padding:6px 12px;border:1px solid var(--line);border-radius:999px;background:var(--card);text-decoration:none;font-size:14px">Dosing &amp; products</a>
+<a href="#stacking" style="padding:6px 12px;border:1px solid var(--line);border-radius:999px;background:var(--card);text-decoration:none;font-size:14px">Stacking</a>
+<a href="#reconstitution" style="padding:6px 12px;border:1px solid var(--line);border-radius:999px;background:var(--card);text-decoration:none;font-size:14px">Reconstitution</a>
+<a href="#video" style="padding:6px 12px;border:1px solid var(--line);border-radius:999px;background:var(--card);text-decoration:none;font-size:14px">Video</a>
+<a href="#calculator" style="padding:6px 12px;border:1px solid var(--line);border-radius:999px;background:var(--card);text-decoration:none;font-size:14px">Calculator</a>
+<a href="#storage" style="padding:6px 12px;border:1px solid var(--line);border-radius:999px;background:var(--card);text-decoration:none;font-size:14px">Storage</a>
+</nav>
+<div style="margin-top:16px;padding:12px 14px;border-radius:10px;background:var(--warn-soft);color:var(--ink);border:1px solid var(--line);font-size:14px">
+<strong style="color:var(--accent)">Read the dose basis on every row.</strong> "Label" is the FDA or foreign prescribing label. "Trial" is the dose used in published human trials. "Reported" is the range commonly cited in practitioner and community protocols, with no established human dose behind it. "No human data" means nobody has a credible number. None of this is medical advice.
+</div>
+</div>
+</header>
+
+<style>
+.wrap{max-width:1100px;margin:0 auto;padding:0 16px}
+section{padding:26px 0 8px}
+h2{font-size:24px;margin:0 0 6px}
+h3{font-size:17px;margin:22px 0 8px}
+.sub{color:var(--muted);margin:0 0 14px}
+.legend{display:flex;flex-wrap:wrap;gap:8px;margin:0 0 12px;font-size:13px}
+.b{display:inline-block;padding:2px 8px;border-radius:999px;font-size:12px;font-weight:600;white-space:nowrap}
+.b-label{background:var(--red);color:#fff}
+.b-trial{background:var(--blue-soft);color:var(--blue)}
+.b-rep{background:var(--warn-soft);color:var(--warn);box-shadow:inset 0 0 0 1px #fff}
+.b-none{background:var(--red-soft);color:var(--red)}
+.f{display:inline-block;margin-top:3px;padding:1px 7px;border-radius:6px;font-size:11px;font-weight:700;letter-spacing:.04em;text-transform:uppercase;border:1px solid var(--line);color:var(--muted)}
+.f-inj{border-color:var(--accent);color:var(--accent)}
+.f-oral{border-color:#fff;color:#fff}
+.tbl{width:100%;overflow-x:auto;border:1px solid var(--line);border-radius:12px;background:var(--card)}
+table{border-collapse:collapse;width:100%;min-width:760px;font-size:14px}
+th,td{text-align:left;vertical-align:top;padding:10px 12px;border-bottom:1px solid var(--line)}
+th{font-size:12px;text-transform:uppercase;letter-spacing:.05em;color:var(--muted);background:var(--gray-soft)}
+tr:last-child td{border-bottom:0}
+td.n{font-weight:600;white-space:nowrap}
+td.n small{display:block;font-weight:400;color:var(--muted);white-space:normal}
+td.d{min-width:200px}
+td.t{color:var(--muted);font-size:13px;min-width:200px}
+</style>
+<main class="wrap">
+<section id="dosing">
+<h2>Dosing and product information</h2>
+<p class="sub">Vial sizes are the sizes commonly sold. All injectable doses are subcutaneous unless noted. Start at the low end of a range. Compounds sold as both pills and vials have a separate row for each form, marked <span class="f f-oral">Oral</span> or <span class="f f-inj">Injectable</span>. Pill and injectable doses are not interchangeable.</p>
+<div class="legend"><span class="b b-label">Label</span><span class="b b-trial">Trial</span><span class="b b-rep">Reported</span><span class="b b-none">No human data</span></div>
+
+<h3>Metabolic and incretin</h3>
+<div class="tbl"><table>
+<thead><tr><th>Peptide</th><th>Vials</th><th>Dose</th><th>Frequency</th><th>Basis</th><th>Notes</th></tr></thead>
+<tbody>
+<tr><td class="n">Tirzepatide<small>Mounjaro, Zepbound</small></td><td>10, 20, 30 mg</td><td class="d">Start 2.5 mg. Raise by 2.5 mg no sooner than every 4 weeks. Maintenance 5, 10 or 15 mg. Max 15 mg.</td><td>Once weekly</td><td><span class="b b-label">Label</span></td><td class="t">2.5 mg is a starter dose, not a treatment dose. Main side effects are nausea, diarrhea and constipation, worst after each step up.</td></tr>
+<tr><td class="n">Retatrutide<small>LY3437943</small></td><td>10, 20, 30 mg</td><td class="d">Trials started at 2 mg and stepped up every 4 weeks. Phase 3 maintenance arms were 4, 9 and 12 mg.</td><td>Once weekly</td><td><span class="b b-trial">Trial</span></td><td class="t">Not FDA-approved. Expect GI effects plus a dose-related rise in resting heart rate.</td></tr>
+<tr><td class="n">Cagrilintide<small>Amylin analogue</small></td><td>5, 10 mg</td><td class="d">Phase 2 range 0.3 to 4.5 mg. Paired with semaglutide (CagriSema) at 2.4 mg after step-up.</td><td>Once weekly</td><td><span class="b b-trial">Trial</span></td><td class="t">Investigational. Usually stepped up over several weeks like a GLP-1.</td></tr>
+<tr><td class="n">MOTS-c</td><td>10, 20, 40 mg</td><td class="d">5 to 10 mg per week, split into 2 or 3 doses.</td><td>2 to 3 times weekly</td><td><span class="b b-rep">Reported</span></td><td class="t">Very little human data. Often run in 4 to 8 week blocks.</td></tr>
+<tr><td class="n">5-Amino-1MQ<small><span class="f f-oral">Oral capsule</span></small></td><td>50 mg caps</td><td class="d">50 to 150 mg by mouth (1 to 3 capsules).</td><td>Daily, split morning and afternoon</td><td><span class="b b-rep">Reported</span></td><td class="t">The form most protocols use. Mouse data only behind it.</td></tr>
+<tr><td class="n">5-Amino-1MQ<small><span class="f f-inj">Injectable</span></small></td><td>10, 50 mg vials</td><td class="d">No consistent injectable range. Community reports vary too widely to give one.</td><td>n/a</td><td><span class="b b-none">No human data</span></td><td class="t">Mouse studies only. If you use it, the oral row is the better-documented route.</td></tr>
+<tr><td class="n">SLU-PP-332<small><span class="f f-oral">Oral capsule</span></small></td><td>500 mcg caps; 100 mg caps</td><td class="d">No credible human dose.</td><td>n/a</td><td><span class="b b-none">No human data</span></td><td class="t">The two capsule strengths differ 200-fold. Check which bottle you have.</td></tr>
+<tr><td class="n">SLU-PP-332<small><span class="f f-inj">Injectable</span></small></td><td>5 mg vial</td><td class="d">No credible human dose.</td><td>n/a</td><td><span class="b b-none">No human data</span></td><td class="t">Mouse studies only.</td></tr>
+<tr><td class="n">Tesofensine<small><span class="f f-oral">Oral only</span></small></td><td>250 mcg caps</td><td class="d">Trial doses 0.25, 0.5 and 1 mg by mouth. 0.5 mg gave the best balance of weight loss and side effects.</td><td>Daily</td><td><span class="b b-trial">Trial</span></td><td class="t">Raises heart rate and blood pressure. Dry mouth and insomnia are common.</td></tr>
+<tr><td class="n">CBL-514</td><td>n/a</td><td class="d">Clinic-administered injection into fat. Not self-dosed.</td><td>Per trial protocol</td><td><span class="b b-trial">Trial</span></td><td class="t">Phase 3. No consumer protocol exists.</td></tr>
+</tbody></table></div>
+
+<h3>Tissue repair and recovery</h3>
+<div class="tbl"><table>
+<thead><tr><th>Peptide</th><th>Vials</th><th>Dose</th><th>Frequency</th><th>Basis</th><th>Notes</th></tr></thead>
+<tbody>
+<tr><td class="n">BPC-157<small><span class="f f-inj">Injectable</span></small></td><td>5, 10, 20 mg vials</td><td class="d">250 to 500 mcg per day, often split into two doses.</td><td>Daily, 4 to 6 weeks</td><td><span class="b b-rep">Reported</span></td><td class="t">Animal data only. Often injected near the injury site.</td></tr>
+<tr><td class="n">BPC-157<small><span class="f f-oral">Oral capsule</span></small></td><td>500 mcg caps</td><td class="d">500 mcg (1 capsule) by mouth, up to twice a day.</td><td>Daily, on an empty stomach</td><td><span class="b b-rep">Reported</span></td><td class="t">Mainly used for gut complaints. Animal data only.</td></tr>
+<tr><td class="n">TB-500</td><td>5, 10, 20 mg</td><td class="d">Loading 2 to 2.5 mg twice weekly for 4 to 6 weeks, then about 2 mg weekly or every other week.</td><td>Twice weekly, then weekly</td><td><span class="b b-rep">Reported</span></td><td class="t">Synthetic thymosin beta-4 fragment. Banned in tested sport.</td></tr>
+<tr><td class="n">BPC-157 + TB-500<small>"Wolverine" <span class="f f-inj">Injectable</span></small></td><td>Blend vials</td><td class="d">Dose by the BPC-157 amount (250 to 500 mcg a day) and check the TB-500 that comes with it.</td><td>Daily</td><td><span class="b b-rep">Reported</span></td><td class="t">Use the calculator with the blend's total mg, then work out each part by its share.</td></tr>
+<tr><td class="n">BPC-157 + TB-500<small>"Wolverine" <span class="f f-oral">Oral capsule</span></small></td><td>Capsules</td><td class="d">Follow the per-capsule amounts on the bottle. Dose by the BPC-157 content, about 500 mcg a day.</td><td>Daily, on an empty stomach</td><td><span class="b b-rep">Reported</span></td><td class="t">TB-500 is a larger peptide and little of it is likely to survive digestion.</td></tr>
+<tr><td class="n">KPV<small><span class="f f-inj">Injectable</span></small></td><td>5, 10 mg vials</td><td class="d">200 to 500 mcg.</td><td>Daily</td><td><span class="b b-rep">Reported</span></td><td class="t">Used for gut and skin inflammation.</td></tr>
+<tr><td class="n">KPV<small><span class="f f-oral">Oral</span></small></td><td>Mixed from a vial or capsules</td><td class="d">500 mcg by mouth.</td><td>1 to 2 times daily</td><td><span class="b b-rep">Reported</span></td><td class="t">Mostly used for gut inflammation. Oral doses run higher than injected ones.</td></tr>
+<tr><td class="n">GHK-Cu</td><td>50, 100 mg</td><td class="d">1 to 2 mg injected. Topical creams usually 1 to 2% strength.</td><td>Daily, 4 to 8 weeks</td><td><span class="b b-rep">Reported</span></td><td class="t">Injection often stings. Solution is blue.</td></tr>
+<tr><td class="n">Glow / KLOW</td><td>70 mg / 80 mg blends</td><td class="d">Dosed by the BPC-157 share, as above.</td><td>Daily</td><td><span class="b b-rep">Reported</span></td><td class="t">GHK-Cu makes up most of the mg in these blends.</td></tr>
+<tr><td class="n">ARA-290<small>Cibinetide</small></td><td>10, 16 mg</td><td class="d">4 mg.</td><td>Daily for 28 days</td><td><span class="b b-trial">Trial</span></td><td class="t">Dose from small trials in sarcoidosis and diabetic neuropathy.</td></tr>
+</tbody></table></div>
+
+<h3>Growth hormone axis</h3>
+<div class="tbl"><table>
+<thead><tr><th>Peptide</th><th>Vials</th><th>Dose</th><th>Frequency</th><th>Basis</th><th>Notes</th></tr></thead>
+<tbody>
+<tr><td class="n">Tesamorelin<small>Egrifta</small></td><td>2, 5, 10 mg</td><td class="d">2 mg.</td><td>Once daily</td><td><span class="b b-label">Label</span></td><td class="t">Label is for abdominal fat in HIV lipodystrophy. Watch blood sugar.</td></tr>
+<tr><td class="n">Sermorelin</td><td>2, 5, 10 mg</td><td class="d">200 to 300 mcg for adults. The old pediatric label was 30 mcg per kg.</td><td>Nightly before bed</td><td><span class="b b-rep">Reported</span></td><td class="t">Take on an empty stomach for the best GH pulse.</td></tr>
+<tr><td class="n">Ipamorelin</td><td>2, 5, 10 mg</td><td class="d">100 to 300 mcg.</td><td>1 to 3 times daily, often at bedtime</td><td><span class="b b-rep">Reported</span></td><td class="t">Least likely of the secretagogues to raise cortisol or hunger.</td></tr>
+<tr><td class="n">CJC-1295 without DAC<small>Mod GRF 1-29</small></td><td>2, 5, 10 mg</td><td class="d">100 mcg.</td><td>1 to 3 times daily with ipamorelin</td><td><span class="b b-rep">Reported</span></td><td class="t">Short acting. Usually injected in the same syringe as ipamorelin.</td></tr>
+<tr><td class="n">CJC-1295 + Ipamorelin</td><td>Blend vials</td><td class="d">About 100 mcg of each per dose.</td><td>Nightly, 5 days on 2 off</td><td><span class="b b-rep">Reported</span></td><td class="t">Check the blend ratio on the label before working out units.</td></tr>
+<tr><td class="n">Tesamorelin + Ipamorelin</td><td>13 mg + 3 mg blend</td><td class="d">Dosed by the tesamorelin share, about 1 to 2 mg.</td><td>Daily</td><td><span class="b b-rep">Reported</span></td><td class="t">16 mg total. 2 mg tesamorelin from this vial brings about 0.46 mg ipamorelin with it.</td></tr>
+<tr><td class="n">MK-677<small>Ibutamoren <span class="f f-oral">Oral only</span></small></td><td>20 mg caps</td><td class="d">10 to 25 mg by mouth. Trials used 25 mg.</td><td>Daily, often at night</td><td><span class="b b-trial">Trial</span></td><td class="t">Raises hunger, water retention and fasting glucose.</td></tr>
+</tbody></table></div>
+
+<h3>Mitochondrial, nutrients and cofactors</h3>
+<div class="tbl"><table>
+<thead><tr><th>Peptide</th><th>Vials</th><th>Dose</th><th>Frequency</th><th>Basis</th><th>Notes</th></tr></thead>
+<tbody>
+<tr><td class="n">SS-31<small>Elamipretide · general use</small></td><td>10, 25, 50 mg</td><td class="d">5 to 10 mg. Some cycling protocols go to 10 to 20 mg.</td><td>Once daily, often 12 weeks on and 4 off</td><td><span class="b b-rep">Reported</span></td><td class="t">The usual non-prescription range. A heart failure trial also tested 4 mg daily. Nothing shows the 5 to 10 mg range works.</td></tr>
+<tr><td class="n">SS-31<small>Forzinity · Barth syndrome only</small></td><td>Prescription only</td><td class="d">40 mg (20 mg with severe kidney impairment). For patients 30 kg and up with Barth syndrome.</td><td>Once daily</td><td><span class="b b-label">Label</span></td><td class="t">A dose for a rare genetic disease, not a general-use dose. Injection-site reactions are very common at 40 mg.</td></tr>
+<tr><td class="n">NAD+</td><td>100, 500, 1000 mg</td><td class="d">50 to 100 mg injected. IV clinics give 250 to 1,000 mg.</td><td>Daily to 3 times weekly</td><td><span class="b b-rep">Reported</span></td><td class="t">Injecting too fast causes flushing, chest tightness and nausea. Go slow.</td></tr>
+<tr><td class="n">Glutathione</td><td>200, 600, 1500 mg</td><td class="d">200 to 600 mg injected. IV 600 to 2,000 mg.</td><td>1 to 3 times weekly</td><td><span class="b b-rep">Reported</span></td><td class="t">Breaks down fast once mixed. Keep cold.</td></tr>
+<tr><td class="n">Vitamin B12</td><td>Multi-dose vials</td><td class="d">1,000 mcg IM or SC.</td><td>Weekly, then monthly</td><td><span class="b b-label">Label</span></td><td class="t">Label regimen for deficiency loads more often first.</td></tr>
+<tr><td class="n">L-Carnitine</td><td>Multi-dose vials</td><td class="d">500 to 1,000 mg injected.</td><td>2 to 3 times weekly</td><td><span class="b b-rep">Reported</span></td><td class="t">Prescription use is IV for carnitine deficiency.</td></tr>
+<tr><td class="n">MIC + B12</td><td>Multi-dose vials</td><td class="d">1 mL IM, per the product's label.</td><td>Weekly</td><td><span class="b b-rep">Reported</span></td><td class="t">Strength varies by maker. Always read the vial.</td></tr>
+</tbody></table></div>
+
+<h3>Neuro and sleep</h3>
+<div class="tbl"><table>
+<thead><tr><th>Peptide</th><th>Vials</th><th>Dose</th><th>Frequency</th><th>Basis</th><th>Notes</th></tr></thead>
+<tbody>
+<tr><td class="n">Semax</td><td>5, 10, 30 mg</td><td class="d">200 to 600 mcg a day, intranasal.</td><td>1 to 3 times daily</td><td><span class="b b-rep">Reported</span></td><td class="t">Registered in Russia as 0.1% and 1% nasal drops. Usually run 10 to 14 days on.</td></tr>
+<tr><td class="n">Selank</td><td>5, 10 mg</td><td class="d">250 to 500 mcg, intranasal.</td><td>1 to 3 times daily</td><td><span class="b b-rep">Reported</span></td><td class="t">Registered in Russia as 0.15% nasal drops for anxiety.</td></tr>
+<tr><td class="n">Selank + Semax</td><td>20 mg blend</td><td class="d">Dosed by total, 250 to 500 mcg intranasal.</td><td>1 to 2 times daily</td><td><span class="b b-rep">Reported</span></td><td class="t">Check the ratio on the label.</td></tr>
+<tr><td class="n">DSIP</td><td>2, 5, 10 mg</td><td class="d">100 to 300 mcg.</td><td>30 minutes before bed</td><td><span class="b b-rep">Reported</span></td><td class="t">Human sleep studies were mixed.</td></tr>
+<tr><td class="n">Dihexa<small><span class="f f-oral">Oral only</span></small></td><td>Caps (coming)</td><td class="d">No credible human dose.</td><td>n/a</td><td><span class="b b-none">No human data</span></td><td class="t">Rat studies only. Strong growth-factor activity raises safety questions.</td></tr>
+</tbody></table></div>
+
+<h3>Longevity, immune, melanocortin and reproductive</h3>
+<div class="tbl"><table>
+<thead><tr><th>Peptide</th><th>Vials</th><th>Dose</th><th>Frequency</th><th>Basis</th><th>Notes</th></tr></thead>
+<tbody>
+<tr><td class="n">Epithalon</td><td>10, 50 mg</td><td class="d">5 to 10 mg a day for 10 to 20 days.</td><td>Course repeated 1 to 2 times a year</td><td><span class="b b-rep">Reported</span></td><td class="t">Based on older Russian protocols.</td></tr>
+<tr><td class="n">Thymosin Alpha-1<small>Zadaxin</small></td><td>5, 10 mg</td><td class="d">1.6 mg.</td><td>Twice weekly</td><td><span class="b b-label">Label</span></td><td class="t">Foreign label (hepatitis B and C). Not approved in the US.</td></tr>
+<tr><td class="n">PT-141<small>Bremelanotide, Vyleesi</small></td><td>10 mg</td><td class="d">1.75 mg at least 45 minutes before activity.</td><td>No more than once per 24 h, 8 times a month</td><td><span class="b b-label">Label</span></td><td class="t">Nausea in about 4 in 10 users on the label dose. Can raise blood pressure briefly.</td></tr>
+<tr><td class="n">Melanotan 1<small>Afamelanotide, Scenesse</small></td><td>10 mg</td><td class="d">Label is a 16 mg implant every 2 months. No label for injected vials.</td><td>n/a for vials</td><td><span class="b b-label">Label</span></td><td class="t">Implant only in clinics. Vial use has no label dose.</td></tr>
+<tr><td class="n">Melanotan 2</td><td>10 mg</td><td class="d">250 to 500 mcg, starting near 100 mcg.</td><td>Daily for loading, then 1 to 2 times weekly</td><td><span class="b b-rep">Reported</span></td><td class="t">Causes nausea, flushing and new or darker moles. Get moles checked.</td></tr>
+<tr><td class="n">Kisspeptin-10</td><td>5, 10 mg</td><td class="d">No settled self-dosing range. Research doses were given IV under supervision.</td><td>n/a</td><td><span class="b b-none">No human data</span></td><td class="t">Human studies exist but not for self-use.</td></tr>
+</tbody></table></div>
+</section>
+
+<style>
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:12px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px 16px}
+.step{position:relative;padding-left:46px}
+.step .num{position:absolute;left:14px;top:14px;width:24px;height:24px;border-radius:50%;background:var(--red);color:#fff;font-weight:700;font-size:13px;display:flex;align-items:center;justify-content:center}
+.step h4{margin:0 0 4px;font-size:15px}
+.step p{margin:0;color:var(--muted);font-size:14px}
+.kit{margin:0;padding-left:18px;color:var(--muted)}
+.kit li{margin:2px 0}
+.stack h4{margin:0 0 2px;font-size:16px}
+.stack .goal{margin:0 0 8px;font-size:12px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;color:var(--accent)}
+.stack dl{margin:0;font-size:14px}
+.stack dt{font-weight:700;margin-top:8px}
+.stack dd{margin:2px 0 0;color:var(--muted)}
+.avoid{border-color:var(--red)}
+</style>
+<section id="stacking">
+<h2>Stacking</h2>
+<p class="sub">Common combinations, why people pair them and how they're usually run. Use the single-compound doses in the tables above for each part. Add one compound at a time so you can tell which one causes a side effect.</p>
+<div class="legend"><span class="b b-trial">Trial</span> combination tested in human trials · <span class="b b-rep">Reported</span> combination used in practice, never tested together</div>
+
+<h3>Recovery and repair</h3>
+<div class="grid">
+<div class="card stack"><p class="goal">Injury and soft-tissue healing</p><h4>BPC-157 + TB-500</h4><dl>
+<dt>Why pair them</dt><dd>BPC-157 is used for local repair near the injury. TB-500 acts body-wide on cell movement and new blood vessels. People pair them to cover both.</dd>
+<dt>How it's run</dt><dd>BPC-157 250 to 500 mcg daily plus TB-500 2 to 2.5 mg twice weekly, for 4 to 6 weeks. The premixed Wolverine vial does both in one shot.</dd>
+<dt>Evidence</dt><dd><span class="b b-rep">Reported</span> Each one has animal data only. Never studied together.</dd></dl></div>
+<div class="card stack"><p class="goal">Skin, hair and repair</p><h4>Glow: BPC-157 + TB-500 + GHK-Cu</h4><dl>
+<dt>Why pair them</dt><dd>Adds GHK-Cu, the copper peptide used for collagen and skin quality, to the repair pair.</dd>
+<dt>How it's run</dt><dd>One premixed vial daily, dosed by the BPC-157 share, for 4 to 8 weeks.</dd>
+<dt>Evidence</dt><dd><span class="b b-rep">Reported</span> GHK-Cu has topical skin data. The blend has none.</dd></dl></div>
+<div class="card stack"><p class="goal">Repair plus gut and skin inflammation</p><h4>KLOW: Glow + KPV</h4><dl>
+<dt>Why pair them</dt><dd>KPV is added for its anti-inflammatory effect, mostly aimed at the gut and skin.</dd>
+<dt>How it's run</dt><dd>One premixed vial daily, dosed by the BPC-157 share.</dd>
+<dt>Evidence</dt><dd><span class="b b-rep">Reported</span> Animal and lab data on the parts only.</dd></dl></div>
+</div>
+
+<h3>Growth hormone</h3>
+<div class="grid">
+<div class="card stack"><p class="goal">Sleep, recovery, body composition</p><h4>CJC-1295 (no DAC) + Ipamorelin</h4><dl>
+<dt>Why pair them</dt><dd>CJC-1295 works through the GHRH receptor and ipamorelin through the ghrelin receptor. Hitting both at once gives a bigger growth hormone pulse than either alone.</dd>
+<dt>How it's run</dt><dd>About 100 mcg of each in one syringe at bedtime on an empty stomach, 5 days on and 2 off, for 8 to 12 weeks.</dd>
+<dt>Evidence</dt><dd><span class="b b-rep">Reported</span> The two-receptor effect on GH release is shown in human studies of similar compounds. The stack itself isn't trialed.</dd></dl></div>
+<div class="card stack"><p class="goal">Belly fat</p><h4>Tesamorelin + Ipamorelin</h4><dl>
+<dt>Why pair them</dt><dd>Tesamorelin has trial data for cutting visceral fat. Ipamorelin is added to strengthen the GH pulse.</dd>
+<dt>How it's run</dt><dd>Daily, dosed by the tesamorelin share (1 to 2 mg). The 13 + 3 mg vial is premixed.</dd>
+<dt>Evidence</dt><dd><span class="b b-rep">Reported</span> Tesamorelin alone is label-backed. The pairing isn't trialed.</dd></dl></div>
+</div>
+
+<h3>Weight loss</h3>
+<div class="grid">
+<div class="card stack"><p class="goal">More weight loss, better fullness</p><h4>GLP-1 + Cagrilintide</h4><dl>
+<dt>Why pair them</dt><dd>Cagrilintide is an amylin analogue. Amylin adds a separate fullness signal on top of the GLP-1 effect.</dd>
+<dt>How it's run</dt><dd>Both once weekly, stepped up together over several weeks. The trial pairing was semaglutide 2.4 mg with cagrilintide 2.4 mg.</dd>
+<dt>Evidence</dt><dd><span class="b b-trial">Trial</span> for semaglutide + cagrilintide (CagriSema). Pairing it with tirzepatide or retatrutide hasn't been trialed.</dd></dl></div>
+<div class="card stack"><p class="goal">Energy and metabolism</p><h4>MOTS-c + NAD+</h4><dl>
+<dt>Why pair them</dt><dd>Both are aimed at mitochondrial function. People add them alongside a GLP-1 to offset fatigue.</dd>
+<dt>How it's run</dt><dd>MOTS-c 5 to 10 mg a week in 2 to 3 doses, plus NAD+ 50 to 100 mg 2 to 3 times a week.</dd>
+<dt>Evidence</dt><dd><span class="b b-rep">Reported</span> Very little human data for either.</dd></dl></div>
+</div>
+
+<h3>Focus, mood and sleep</h3>
+<div class="grid">
+<div class="card stack"><p class="goal">Calm focus</p><h4>Selank + Semax</h4><dl>
+<dt>Why pair them</dt><dd>Semax is used for focus and Selank for calm. Together they're meant to sharpen focus without the edge.</dd>
+<dt>How it's run</dt><dd>Intranasal, 250 to 500 mcg total, once or twice daily, 10 to 14 days on.</dd>
+<dt>Evidence</dt><dd><span class="b b-rep">Reported</span> Each is registered in Russia. The pairing isn't studied.</dd></dl></div>
+<div class="card stack"><p class="goal">Deeper sleep</p><h4>DSIP + Ipamorelin</h4><dl>
+<dt>Why pair them</dt><dd>DSIP is used to help fall asleep. Ipamorelin at bedtime boosts the GH pulse that happens in deep sleep.</dd>
+<dt>How it's run</dt><dd>DSIP 100 to 300 mcg and ipamorelin 100 to 200 mcg, about 30 minutes before bed.</dd>
+<dt>Evidence</dt><dd><span class="b b-rep">Reported</span> DSIP's human sleep studies were mixed.</dd></dl></div>
+</div>
+
+<h3>Combinations to avoid</h3>
+<div class="grid">
+<div class="card stack avoid"><h4>Two GLP-1 drugs together</h4><dl><dd>Tirzepatide with retatrutide, or either with semaglutide. They hit the same receptors, so side effects stack without a known benefit.</dd></dl></div>
+<div class="card stack avoid"><h4>Melanotan 2 + PT-141</h4><dl><dd>Both hit melanocortin receptors. Nausea, flushing and blood pressure spikes add up.</dd></dl></div>
+<div class="card stack avoid"><h4>MK-677 on top of other GH peptides</h4><dl><dd>Piles on water retention, hunger and higher blood sugar. Check fasting glucose if you do it.</dd></dl></div>
+<div class="card stack avoid"><h4>Tesofensine + stimulants</h4><dl><dd>Tesofensine already raises heart rate and blood pressure. Adding caffeine pills, pre-workout or ADHD stimulants pushes both higher.</dd></dl></div>
+</div>
+</section>
+<section id="reconstitution">
+<h2>Reconstitution instructions</h2>
+<p class="sub">How to turn a vial of freeze-dried powder into an injectable solution.</p>
+<div class="card" style="margin-bottom:12px">
+<strong>What you need</strong>
+<ul class="kit">
+<li>The peptide vial (powder), at room temperature</li>
+<li>Bacteriostatic water (0.9% benzyl alcohol)</li>
+<li>A 1 mL or 3 mL syringe with a needle to draw and add water</li>
+<li>U-100 insulin syringes (0.3, 0.5 or 1 mL) for each dose</li>
+<li>Alcohol swabs and a sharps container</li>
+</ul>
+</div>
+<div class="grid">
+<div class="card step"><span class="num">1</span><h4>Wash and set up</h4><p>Wash your hands. Lay everything out on a clean surface. Check the label and the expiry.</p></div>
+<div class="card step"><span class="num">2</span><h4>Swab both tops</h4><p>Flip off the caps. Wipe the rubber stoppers of the peptide vial and the water vial with alcohol and let them dry.</p></div>
+<div class="card step"><span class="num">3</span><h4>Draw the water</h4><p>Pull back air equal to the water you need, push it into the water vial, then draw the water out. Use the calculator to pick the amount.</p></div>
+<div class="card step"><span class="num">4</span><h4>Add it down the side</h4><p>Push the needle into the peptide vial at an angle and let the water run slowly down the glass wall. Never squirt it straight onto the powder.</p></div>
+<div class="card step"><span class="num">5</span><h4>Swirl, don't shake</h4><p>Roll the vial gently between your palms until the powder is gone. Shaking can break the peptide apart. If it's slow to dissolve, let it sit a few minutes.</p></div>
+<div class="card step"><span class="num">6</span><h4>Check, label, refrigerate</h4><p>The liquid should be clear. Write the date and the concentration on the vial and keep it at 2 to 8 °C.</p></div>
+<div class="card step"><span class="num">7</span><h4>Draw a dose</h4><p>Swab the top. With an insulin syringe, draw to the unit mark the calculator gives you. Tap out air bubbles.</p></div>
+<div class="card step"><span class="num">8</span><h4>Inject and dispose</h4><p>Pinch a fold of belly or thigh skin, inject at 45 to 90 degrees, and rotate sites. Put the syringe straight in the sharps container.</p></div>
+</div>
+<p style="margin:12px 0 0;color:var(--muted);font-size:14px">A cloudy solution, particles, or a color change (other than GHK-Cu's normal blue) means don't use it.</p>
+</section>
+
+<style>
+@keyframes pk-step{0%,12%{opacity:1;transform:scale(1.02);border-color:var(--accent)}16%,100%{opacity:.45;transform:none;border-color:var(--line)}}
+.walk{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:10px;margin-top:12px}
+.walk div{border:2px solid var(--line);border-radius:12px;padding:12px;background:var(--card);opacity:.45;animation:pk-step 16s infinite;font-size:14px}
+.walk div b{display:block;font-size:22px;color:var(--accent)}
+.walk div:nth-child(2){animation-delay:2s}.walk div:nth-child(3){animation-delay:4s}.walk div:nth-child(4){animation-delay:6s}.walk div:nth-child(5){animation-delay:8s}.walk div:nth-child(6){animation-delay:10s}.walk div:nth-child(7){animation-delay:12s}.walk div:nth-child(8){animation-delay:14s}
+@media (prefers-reduced-motion:reduce){.walk div{animation:none;opacity:1}}
+</style>
+<section id="video">
+<h2>Video</h2>
+<p class="sub">A nurse-led clinical skills video on reconstituting a powdered medication. Same technique as above.</p>
+<a href="https://www.youtube.com/watch?v=eau2om6MLfY" target="_blank" rel="noopener" style="display:flex;gap:14px;align-items:center;text-decoration:none;color:var(--ink);background:var(--card);border:1px solid var(--line);border-radius:12px;padding:14px 16px">
+<span style="flex:none;width:64px;height:44px;border-radius:10px;background:var(--red);display:flex;align-items:center;justify-content:center"><span style="width:0;height:0;border-left:16px solid #fff;border-top:10px solid transparent;border-bottom:10px solid transparent;margin-left:4px"></span></span>
+<span><strong>How to Reconstitute a Powder Medication: Clinical Skills</strong><br><span style="color:var(--muted);font-size:14px">Level Up RN · opens on YouTube</span></span>
+</a>
+<h3>Animated walkthrough</h3>
+<p class="sub" style="margin-bottom:0">Each step lights up in turn.</p>
+<div class="walk">
+<div><b>1</b>Wash and set up</div>
+<div><b>2</b>Swab both stoppers</div>
+<div><b>3</b>Draw the water</div>
+<div><b>4</b>Run it down the glass</div>
+<div><b>5</b>Swirl gently</div>
+<div><b>6</b>Label and refrigerate</div>
+<div><b>7</b>Draw to the unit mark</div>
+<div><b>8</b>Inject, then sharps bin</div>
+</div>
+<div style="margin-top:12px;padding:12px 14px;border:1px dashed var(--line);border-radius:12px;color:var(--muted);font-size:14px">[Your own video goes here. Send me the file or link and I'll swap it in.]</div>
+</section>
+
+<style>
+.calc{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:12px}
+.calc label{display:block;font-size:13px;font-weight:600;color:var(--muted);margin:10px 0 4px}
+.calc input,.calc select{width:100%;padding:9px 10px;border:1px solid var(--line);border-radius:8px;background:var(--bg);color:var(--ink);font-size:15px}
+.row2{display:grid;grid-template-columns:1fr 110px;gap:8px}
+.out{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.out div{background:var(--gray-soft);border-radius:10px;padding:10px 12px}
+.out span{display:block;font-size:12px;color:var(--muted)}
+.out strong{font-size:22px}
+.out .big{grid-column:1/-1;background:var(--accent-soft)}
+.out .big strong{font-size:30px;color:var(--accent)}
+.bar{height:16px;border-radius:8px;background:var(--gray-soft);border:1px solid var(--line);overflow:hidden;margin-top:6px}
+.bar i{display:block;height:100%;width:0;background:var(--accent)}
+#c-warn{margin-top:10px;font-size:14px;color:var(--red);min-height:1em}
+</style>
+<section id="calculator">
+<h2>Peptide calculator</h2>
+<p class="sub">Enter the vial, the water you add and the dose you want. It tells you where to draw on a U-100 insulin syringe.</p>
+<div class="calc">
+<div class="card">
+<label for="c-pep">Peptide (fills a common vial size)</label>
+<select id="c-pep">
+<option value="">Choose or enter your own</option>
+<option data-mg="10" data-ml="2" data-dose="2.5" data-u="mg">Tirzepatide 10 mg</option>
+<option data-mg="10" data-ml="2" data-dose="2" data-u="mg">Retatrutide 10 mg</option>
+<option data-mg="10" data-ml="2" data-dose="1" data-u="mg">Cagrilintide 10 mg</option>
+<option data-mg="10" data-ml="2" data-dose="2.5" data-u="mg">MOTS-c 10 mg</option>
+<option data-mg="5" data-ml="2" data-dose="250" data-u="mcg">BPC-157 5 mg</option>
+<option data-mg="10" data-ml="2" data-dose="250" data-u="mcg">BPC-157 10 mg</option>
+<option data-mg="10" data-ml="2" data-dose="2" data-u="mg">TB-500 10 mg</option>
+<option data-mg="10" data-ml="2" data-dose="500" data-u="mcg">KPV 10 mg</option>
+<option data-mg="50" data-ml="3" data-dose="1" data-u="mg">GHK-Cu 50 mg</option>
+<option data-mg="10" data-ml="2" data-dose="2" data-u="mg">Tesamorelin 10 mg</option>
+<option data-mg="10" data-ml="3" data-dose="250" data-u="mcg">Sermorelin 10 mg</option>
+<option data-mg="10" data-ml="3" data-dose="200" data-u="mcg">Ipamorelin 10 mg</option>
+<option data-mg="5" data-ml="2" data-dose="100" data-u="mcg">CJC-1295 no DAC 5 mg</option>
+<option data-mg="10" data-ml="3" data-dose="200" data-u="mcg">DSIP 10 mg</option>
+<option data-mg="50" data-ml="3" data-dose="5" data-u="mg">Epithalon 50 mg</option>
+<option data-mg="10" data-ml="2" data-dose="1.6" data-u="mg">Thymosin Alpha-1 10 mg</option>
+<option data-mg="10" data-ml="2" data-dose="1.75" data-u="mg">PT-141 10 mg</option>
+<option data-mg="10" data-ml="2" data-dose="250" data-u="mcg">Melanotan 2 10 mg</option>
+<option data-mg="500" data-ml="5" data-dose="100" data-u="mg">NAD+ 500 mg</option>
+</select>
+<label for="c-mg">Peptide in the vial</label>
+<div class="row2"><input id="c-mg" type="number" min="0" step="any" value="10"><select disabled><option>mg</option></select></div>
+<label for="c-ml">Bacteriostatic water you add</label>
+<div class="row2"><input id="c-ml" type="number" min="0" step="any" value="2"><select disabled><option>mL</option></select></div>
+<label for="c-dose">Dose you want</label>
+<div class="row2"><input id="c-dose" type="number" min="0" step="any" value="250"><select id="c-unit"><option value="mcg">mcg</option><option value="mg">mg</option></select></div>
+<label for="c-syr">Syringe</label>
+<select id="c-syr"><option value="30">0.3 mL (30 units)</option><option value="50">0.5 mL (50 units)</option><option value="100" selected>1 mL (100 units)</option></select>
+</div>
+<div class="card">
+<div class="out">
+<div class="big"><span>Draw to</span><strong id="o-units">5 units</strong></div>
+<div><span>Volume</span><strong id="o-ml">0.05 mL</strong></div>
+<div><span>Concentration</span><strong id="o-conc">5 mg/mL</strong></div>
+<div><span>Doses per vial</span><strong id="o-doses">40</strong></div>
+<div><span>Per unit (tick)</span><strong id="o-per">50 mcg</strong></div>
+</div>
+<span style="display:block;margin-top:14px;font-size:12px;color:var(--muted)" id="o-barlabel">Fill on a 1 mL syringe</span>
+<div class="bar"><i id="o-bar" style="width:5%"></i></div>
+<div id="c-warn"></div>
+<p style="margin:8px 0 0;font-size:13px;color:var(--muted)">Math: concentration = mg ÷ mL. Volume = dose ÷ concentration. Units = mL × 100.</p>
+</div>
+</div>
+
+<h3>Quick reference (works offline)</h3>
+<div class="tbl"><table style="min-width:560px">
+<thead><tr><th>Vial + water</th><th>Concentration</th><th>Dose → units on U-100</th></tr></thead>
+<tbody>
+<tr><td>5 mg + 2 mL</td><td>2.5 mg/mL</td><td>100 mcg = 4 · 250 mcg = 10 · 500 mcg = 20</td></tr>
+<tr><td>5 mg + 1 mL</td><td>5 mg/mL</td><td>100 mcg = 2 · 250 mcg = 5 · 500 mcg = 10</td></tr>
+<tr><td>10 mg + 1 mL</td><td>10 mg/mL</td><td>500 mcg = 5 · 1 mg = 10 · 2.5 mg = 25</td></tr>
+<tr><td>10 mg + 2 mL</td><td>5 mg/mL</td><td>250 mcg = 5 · 500 mcg = 10 · 1 mg = 20 · 2 mg = 40 · 2.5 mg = 50</td></tr>
+<tr><td>10 mg + 3 mL</td><td>3.33 mg/mL</td><td>200 mcg = 6 · 250 mcg = 7.5 · 500 mcg = 15 · 1 mg = 30</td></tr>
+<tr><td>20 mg + 2 mL</td><td>10 mg/mL</td><td>2.5 mg = 25 · 5 mg = 50 · 7.5 mg = 75 · 10 mg = 100</td></tr>
+<tr><td>30 mg + 3 mL</td><td>10 mg/mL</td><td>2.5 mg = 25 · 5 mg = 50 · 10 mg = 100 · 12 mg = 120 (two draws)</td></tr>
+</tbody></table></div>
+</section>
+
+<section id="storage" style="padding-bottom:40px">
+<h2>Storage</h2>
+<div class="grid">
+<div class="card"><strong>Unopened powder</strong><p style="margin:4px 0 0;color:var(--muted);font-size:14px">Freezer at about −20 °C for the long term, or fridge at 2 to 8 °C for weeks. Keep dry and out of light.</p></div>
+<div class="card"><strong>After mixing</strong><p style="margin:4px 0 0;color:var(--muted);font-size:14px">Fridge at 2 to 8 °C. Most mixed peptides are used within about 3 to 4 weeks. Never freeze a mixed vial.</p></div>
+<div class="card"><strong>Bacteriostatic water</strong><p style="margin:4px 0 0;color:var(--muted);font-size:14px">Room temperature. Discard 28 days after first puncture, per the label.</p></div>
+</div>
+<p style="margin:18px 0 0;font-size:13px;color:var(--muted)">Private reference compiled November 2026. Labels and trial doses are from the prescribing information and published trials; "Reported" ranges are community protocols, not established doses.</p>
+</section>
+</main>
+
+<script>
+(function(){
+  var $=function(id){return document.getElementById(id)};
+  function fmt(n,d){if(!isFinite(n))return '–';var s=n.toFixed(d);return s.indexOf('.')>=0?s.replace(/0+$/,'').replace(/\.$/,''):s}
+  function calc(){
+    var mg=parseFloat($('c-mg').value),ml=parseFloat($('c-ml').value),dose=parseFloat($('c-dose').value),unit=$('c-unit').value,syr=parseFloat($('c-syr').value),w='';
+    if(!(mg>0&&ml>0&&dose>0)){['o-units','o-ml','o-conc','o-doses','o-per'].forEach(function(i){$(i).textContent='–'});$('o-bar').style.width='0';$('c-warn').textContent='Enter a vial amount, water and dose above zero.';return}
+    var doseMcg=unit==='mg'?dose*1000:dose,concMcg=mg*1000/ml,vol=doseMcg/concMcg,units=vol*100,doses=Math.floor(mg*1000/doseMcg+1e-9);
+    $('o-units').textContent=fmt(units,1)+' units';
+    $('o-ml').textContent=fmt(vol,3)+' mL';
+    $('o-conc').textContent=concMcg>=1000?fmt(concMcg/1000,2)+' mg/mL':fmt(concMcg,0)+' mcg/mL';
+    $('o-doses').textContent=doses;
+    var per=concMcg/100;$('o-per').textContent=per>=1000?fmt(per/1000,2)+' mg':fmt(per,1)+' mcg';
+    $('o-barlabel').textContent='Fill on a '+fmt(syr/100,1)+' mL syringe';
+    $('o-bar').style.width=Math.min(100,units/syr*100)+'%';
+    if(doseMcg>mg*1000)w='That dose is more than the whole vial.';
+    else if(units>syr)w='That is more than this syringe holds. Use a bigger syringe or split it into two draws.';
+    else if(units<2)w='Under 2 units is hard to measure. Add less water or use a 0.3 mL syringe.';
+    $('c-warn').textContent=w;
+  }
+  $('c-pep').addEventListener('change',function(){var o=this.options[this.selectedIndex];if(!o.dataset.mg)return;$('c-mg').value=o.dataset.mg;$('c-ml').value=o.dataset.ml;$('c-dose').value=o.dataset.dose;$('c-unit').value=o.dataset.u;calc()});
+  ['c-mg','c-ml','c-dose','c-unit','c-syr'].forEach(function(i){$(i).addEventListener('input',calc);$(i).addEventListener('change',calc)});
+  calc();
+})();
+</script>
+</body>
+</html>
